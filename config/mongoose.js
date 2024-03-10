@@ -7,9 +7,9 @@ const { MONGODB_URL} = process.env;
 // connect to database
 exports.connect = () => {
     // connecting
-    mongoose.connect("mongodb+srv://abhishek7909:Shub123@cluster0.26ox9j1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
+    mongoose.connect("mongodb+srv://abhishek8269:Shub7909@habit-tracker.frrsw0q.mongodb.net/?retryWrites=true&w=majority&appName=Habit-Tracker", {
+     //   useNewUrlParser: true,
+      //  useUnifiedTopology: true,
     })
     .then(
         // if database connected
